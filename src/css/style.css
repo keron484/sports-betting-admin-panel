@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+:root{
+  --view-height-25:25dvh;
+  --view-height-50:50dvh;
+  --view-height-75:75dvh;
+  --view-height-100:100dvh;
+  --lighter-white:#fcfcfc;
+  --color-white:#ffffff;
+  --color-green:#5cb85c;
+  --color-grey:#555;
+  --color-primary-color:#095256;
+  --color-secondary-color:#439775;
+  --color-lighter-primary:#087F8C;
+  --font-size-12:.85rem;
+  --font-size-13:1rem;
+  --font-size-14:1.5rme;
+  --font-size-10:.5rem;
+  --font-size-8:.3rem;
+
+}
+/*utilities */
+.h-25{
+  height: 25%;
+}
+.h-50{
+  height: 50%;
+}
+.h-75{
+  height: 75%;
+}
+.h-100{
+  height: var(--view-height-100);
+}
+.border-none{
+  border: none;
+}
+main{
+  background-color: var(--lighter-white);
+  border-radius: 20px 0px 0px 0px;
+  height: var(--view-height-100);
+}
+body{
+  padding: 0;
+  margin: 0;
+  font-family: 'poppins', sans-serif;
+  color: var(--color-primary-color);
+}
+.circle{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: var(--lighter-white);
+}
+header{
+  background-color: var(--color-white);
+}
+.badge-sm{
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: var(--lighter-white);
+}
+.badge-md{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: var(--lighter-white);
+}
+.badge-lg{
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  background-color: var(--lighter-white);
+}
+.badge-xlg{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: var(--lighter-white);
+}
+.bg-white{
+  background-color: var(--color-white);
+}
+.img-area{
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  border: 4px solid var(--color-green);
+}
+.fs-12{
+  font-size: var(--font-size-12);
+}
+.fs-13{
+  font-size: var(--font-size-13);
+}
+.fs-14{
+  font-size: var(--font-size-14);
+}
+.fs-10{
+  font-size: var(--font-size-10);
+}
+.fs-8{
+  font-size: var(--font-size-8);
+}
+.active-badge{
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  background-color: var(--color-green);
+  color: var(--color-green);
+  z-index: 1000;
+  position: relative;
+  inset: 20px 18px;
+}
+.pb-xl{
+  padding-bottom: 100rem;
+}
+.pie-chart{
+  height: 20rem;
+}
+.line-chart{
+  width: 50rem;
+}
+.piechart-two{
+  height: 25rem;
+}
+.icon-badge{
+  width: 35px;
+  height: 35px;
+  font-size: 18px;
+  border-radius: 5px;
+  text-align: center;
+  background: #3a9188;
+  color: var(--color-white);
+  margin-right: 10px;
+  margin-bottom: 2px;
+}
+.gradient-one{
+  background: linear-gradient(89deg, rgb(21, 74, 189) 0.1%, rgb(26, 138, 211) 51.5%, rgb(72, 177, 234) 100.2%);
+}
+.gradient-two{
+  background: linear-gradient(109.6deg, rgb(6, 183, 249) 11.2%, rgb(25, 74, 236) 91.1%);
+}
+.gradient-three{
+  background: linear-gradient(109.6deg, rgba(119, 44, 232, 0.68) 11.5%, rgb(119, 44, 232) 91.2%);
+}
+.gradient-four{
+  background: linear-gradient(-20deg, #fc6076 0%, #ff9a44 100%);
+}
+.top-badge{
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background-color: var(--lighter-white);
+}
+.search-input{
+  border: none;
+}
+.search-input, ::placeholder{
+ font-size: var(--font-size-14);
+ font-weight: 500;
+ color: var(--color-grey);
+}
+.search-icon{
+  position: relative;
+  inset: 0px;
+  font-size: var(--font-size-14);
+}
+.search-input, :focus{
+   outline: none;
+}
+.profile-image{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 50%;
+}
+.link{
+  text-decoration: none;
+}
+.noti-pill{
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: var(--color-green);
+  z-index: 1000;
+  position: relative;
+  left: -2px;
+  top: -10px;
+}
+.profile-pic-sm{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 50%;
+}
+.icon-color{
+  color: var(--color-secondary-color);
+}
+.theme-color-darker{
+  color: var(--color-lighter-primary);
+}
+.theme-color{
+  color: var(--color-primary-color);
+}
+.color-grey{
+  color: var(--color-grey);
+}
+.outline-none{
+  outline: none;
+}
+.active-link{
+  text-decoration: none;
+  color: var(--color-lighter-primary);
+  font-weight: bolder;
+}
+.inactive-link{
+  color: var(--color-grey);
+  text-decoration: none;
+}
+.link{
+  text-decoration: none;
+  width: 100%;
+}
